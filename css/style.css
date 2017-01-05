@@ -1,0 +1,24 @@
+
+a.weixin {
+    position: relative;
+}
+ 
+.weixin img {
+    position: absolute;
+    left: -28px;
+    top: -235px;
+    z-index: 99;
+    width: 20rem;
+    height: 20rem;
+    border: 0.3125rem solid #0085ba;
+    border-radius: 0.25rem;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    max-width: none;
+}
+ 
+.weixin:hover img {
+    transform: scale(1);
+    opacity: 1;
+}
