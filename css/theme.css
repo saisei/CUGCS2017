@@ -537,6 +537,30 @@ Banner Content
 	bottom: 10%;
 }
 
+.banner-time{
+	border: 2px solid#fff;
+	background: #eee;
+	padding: 60px 50px;
+	margin-top: 140px;
+	border-radius: 15px;
+}
+.banner-time h2{
+	margin-top: 0px;
+	line-height: 60px;
+	font-family: "lato",sans-serif;
+}
+.banner-time h2 span{
+	display: block;
+	color: #ED1C24;
+	font-size: 70px;
+}
+.banner-time h4{
+	color: #333;
+	margin-bottom: 0px;
+}
+.banner-time p{
+	color: #444;
+}
 
 /*
 ==========================================
