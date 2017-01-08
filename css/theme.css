@@ -222,7 +222,7 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-	background: #ff0000 url(../img/up-arrow.png) no-repeat center 43%;
+	background: #ff0000 url("../img/up-arrow.png") no-repeat center 43%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
@@ -1075,6 +1075,15 @@ center
 	position: relative;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+.frame a.info {
+	border: 3px solid#000000;
+	padding: 8px;
+	color: #000000;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-size: 14px;
 }
 
 
