@@ -657,9 +657,9 @@ Banner Content
     background-position: 50%;
     z-index: 0;
     opacity: 0;
-    -webkit-animation: fade-out 12s infinite both;
-    -moz-animation: fade-out 12s infinite both;
-    animation: fade-out 12s infinite both;
+    -webkit-animation: fade-out 16s infinite both;
+    -moz-animation: fade-out 16s infinite both;
+    animation: fade-out 16s infinite both;
     background-image: url(../images/banner-1-sm.jpg);
 
 }
@@ -667,7 +667,7 @@ Banner Content
 @media (min-width: 58em) {
       
     .sect-banner ul.kf-slider li {
-        background-image: url(../img/banner/cover_photo.jpg); 
+        background-image: url(../img/banner/columbia.jpg); 
         background-size:cover; 
     } 
 }
@@ -695,6 +695,20 @@ Banner Content
    
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(3) {
+        background-image: url(../img/banner/cover_photo.jpg); 
+    }
+
+}
+
+.sect-banner ul.kf-slider li:nth-child(4) {
+    background-image: url(../images/banner-3-sm.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    animation-delay: 12s;
+}
+   
+@media (min-width: 58em) {
+    .sect-banner ul.kf-slider li:nth-child(4) {
         background-image: url(../img/banner/b3.jpg); 
     }
 
@@ -710,17 +724,17 @@ Banner Content
     background-position: 50%;
     z-index: 0;
     background-image: url(../images/banner-1-sm.jpg);
-    -webkit-animation: slider-sm ease-in-out 30s both infinite;
-    -moz-animation: slider-sm ease-in-out 30s both infinite;
-    animation: slider-sm ease-in-out 30s both infinite; 
+    -webkit-animation: slider-sm ease-in-out 40s both infinite;
+    -moz-animation: slider-sm ease-in-out 40s both infinite;
+    animation: slider-sm ease-in-out 40s both infinite; 
 }
 
 @media (min-width: 58em) {
     .sect-banner .banner-bg {
-        background-image: url(../img/banner/b1.jpg);
-        -webkit-animation: slider-lg ease-in-out 30s both infinite;
-        -moz-animation: slider-lg ease-in-out 30s both infinite;
-        animation: slider-lg ease-in-out 30s both infinite; 
+        background-image: url(../img/banner/columbia.jpg);
+        -webkit-animation: slider-lg ease-in-out 40s both infinite;
+        -moz-animation: slider-lg ease-in-out 40s both infinite;
+        animation: slider-lg ease-in-out 40s both infinite; 
     }
 }
 
@@ -766,34 +780,52 @@ Banner Content
 -----------------------------------------------  */
 @-webkit-keyframes slider-lg {
    0% {
-    background-image: url(../img/banner/b1.jpg); }
-  33% {
+    background-image: url(../img/banner/columbia.jpg); }
+
+  25% {
     background-image: url(../img/banner/b2.jpg); }
-  66% {
+
+  50% {
+    background-image: url(../img/banner/cover_photo.jpg); }
+
+  75% {
     background-image: url(../img/banner/b3.jpg); }
+
   100% {
-    background-image: url(../img/banner/b1.jpg); }
+    background-image: url(../img/banner/columbia.jpg); }
 }
 @-moz-keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/b1.jpg); }
-  33% {
+    background-image: url(../img/banner/columbia.jpg); }
+
+  25% {
     background-image: url(../img/banner/b2.jpg); }
-  66% {
+
+  50% {
+    background-image: url(../img/banner/cover_photo.jpg); }
+
+  75% {
     background-image: url(../img/banner/b3.jpg); }
+
   100% {
-    background-image: url(../img/banner/b1.jpg); } 
+    background-image: url(../img/banner/columbia.jpg); }
 
 }
 @keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/b1.jpg); }
-  33% {
+    background-image: url(../img/banner/columbia.jpg); }
+
+  25% {
     background-image: url(../img/banner/b2.jpg); }
-  66% {
+
+  50% {
+    background-image: url(../img/banner/cover_photo.jpg); }
+
+  75% {
     background-image: url(../img/banner/b3.jpg); }
+
   100% {
-    background-image: url(../img/banner/b1.jpg); } 
+    background-image: url(../img/banner/columbia.jpg); }
 }
 /*
 ==========================================
