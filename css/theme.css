@@ -417,8 +417,8 @@ a.navbar-brand i {
 
 .navbar-default .navbar-nav > li > a {
 	text-transform: capitalize;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: 18px;
+	line-height: 25px;
 }
 
 .navbar-default .navbar-nav > .active > a:hover,
@@ -428,7 +428,7 @@ a.navbar-brand i {
 }
 
 .navbar-btn {
-	margin-top: 15px;
+	margin-top: 13px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -440,8 +440,8 @@ a.navbar-brand i {
 
 @media (min-width: 992px) {
 	.navbar-nav > li > a {
-		padding-top: 18px;
-		padding-bottom: 18px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	.navbar-lg .navbar-nav > li > a {
 		padding-top: 30px;
