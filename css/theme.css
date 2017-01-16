@@ -660,7 +660,7 @@ Banner Content
     -webkit-animation: fade-out 16s infinite both;
     -moz-animation: fade-out 16s infinite both;
     animation: fade-out 16s infinite both;
-    background-image: url(../images/banner-1-sm.jpg);
+    background-image: url(../img/banner/columbia.jpg);
 
 }
 
@@ -673,7 +673,7 @@ Banner Content
 }
 
 .sect-banner ul.kf-slider li:nth-child(2) {
-    background-image: url(../images/banner-2-sm.jpg);
+    background-image: url(../img/banner/b2.jpg);
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
     animation-delay: 4s; 
@@ -687,7 +687,7 @@ Banner Content
 }
   
 .sect-banner ul.kf-slider li:nth-child(3) {
-    background-image: url(../images/banner-3-sm.jpg);
+    background-image: url(../img/banner/cover_photo.jpg);
     -webkit-animation-delay: 8s;
     -moz-animation-delay: 8s;
     animation-delay: 8s;
@@ -701,7 +701,7 @@ Banner Content
 }
 
 .sect-banner ul.kf-slider li:nth-child(4) {
-    background-image: url(../images/banner-3-sm.jpg);
+    background-image: url(../img/banner/b3.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     animation-delay: 12s;
@@ -723,7 +723,7 @@ Banner Content
     background-repeat: no-repeat;
     background-position: 50%;
     z-index: 0;
-    background-image: url(../images/banner-1-sm.jpg);
+    background-image: url(../img/banner/columbia.jpg);
     -webkit-animation: slider-sm ease-in-out 40s both infinite;
     -moz-animation: slider-sm ease-in-out 40s both infinite;
     animation: slider-sm ease-in-out 40s both infinite; 
@@ -1028,7 +1028,7 @@ center
 
 #section-speaker {
 	background: #EEEEEE;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 
 .speaker-box,
