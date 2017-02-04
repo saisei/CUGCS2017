@@ -606,15 +606,16 @@ Banner Content
 
 .sect-banner h3 {
 	color: #fff;
-	font-weight: 700;
-	font-size: 600%;
-	opacity: 0.8;
+	font-weight: 600;
+	font-size: 400%;
+	opacity: 0.9;
+	line-height: 58px;
 }
 
 .sect-banner h4 {
-	color: #eaeaea;
-	font-weight: 400;
-	font-size: 250%;
+	color: #fff;
+	font-weight: 350;
+	font-size: 150%;
 	opacity: 0.8;
 	width: 70%;
 	margin: 35px auto;
@@ -660,20 +661,20 @@ Banner Content
     -webkit-animation: fade-out 16s infinite both;
     -moz-animation: fade-out 16s infinite both;
     animation: fade-out 16s infinite both;
-    background-image: url(../img/banner/columbia.jpg);
+    background-image: url(../img/banner/columbia_grey.jpg);
 
 }
 
 @media (min-width: 58em) {
       
     .sect-banner ul.kf-slider li {
-        background-image: url(../img/banner/columbia.jpg); 
+        background-image: url(../img/banner/columbia_grey.jpg); 
         background-size:cover; 
     } 
 }
 
 .sect-banner ul.kf-slider li:nth-child(2) {
-    background-image: url(../img/banner/b2.jpg);
+    background-image: url(../img/banner/b2_grey.jpg);
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
     animation-delay: 4s; 
@@ -681,13 +682,13 @@ Banner Content
 
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(2) {
-        background-image: url(../img/banner/b2.jpg);
+        background-image: url(../img/banner/b2_grey.jpg);
         background-size:cover;  
     } 
 }
   
 .sect-banner ul.kf-slider li:nth-child(3) {
-    background-image: url(../img/banner/cover_photo.jpg);
+    background-image: url(../img/banner/cover_photo_grey.jpg);
     -webkit-animation-delay: 8s;
     -moz-animation-delay: 8s;
     animation-delay: 8s;
@@ -695,13 +696,13 @@ Banner Content
    
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(3) {
-        background-image: url(../img/banner/cover_photo.jpg); 
+        background-image: url(../img/banner/cover_photo_grey.jpg); 
     }
 
 }
 
 .sect-banner ul.kf-slider li:nth-child(4) {
-    background-image: url(../img/banner/b3.jpg);
+    background-image: url(../img/banner/b3_grey.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     animation-delay: 12s;
@@ -709,7 +710,7 @@ Banner Content
    
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(4) {
-        background-image: url(../img/banner/b3.jpg); 
+        background-image: url(../img/banner/b3_grey.jpg); 
     }
 
 }
@@ -723,7 +724,7 @@ Banner Content
     background-repeat: no-repeat;
     background-position: 50%;
     z-index: 0;
-    background-image: url(../img/banner/columbia.jpg);
+    background-image: url(../img/banner/columbia_grey.jpg);
     -webkit-animation: slider-sm ease-in-out 40s both infinite;
     -moz-animation: slider-sm ease-in-out 40s both infinite;
     animation: slider-sm ease-in-out 40s both infinite; 
@@ -731,7 +732,7 @@ Banner Content
 
 @media (min-width: 58em) {
     .sect-banner .banner-bg {
-        background-image: url(../img/banner/columbia.jpg);
+        background-image: url(../img/banner/columbia_grey.jpg);
         -webkit-animation: slider-lg ease-in-out 40s both infinite;
         -moz-animation: slider-lg ease-in-out 40s both infinite;
         animation: slider-lg ease-in-out 40s both infinite; 
@@ -780,52 +781,52 @@ Banner Content
 -----------------------------------------------  */
 @-webkit-keyframes slider-lg {
    0% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 
   25% {
-    background-image: url(../img/banner/b2.jpg); }
+    background-image: url(../img/banner/b2_grey.jpg); }
 
   50% {
-    background-image: url(../img/banner/cover_photo.jpg); }
+    background-image: url(../img/banner/cover_photo_grey.jpg); }
 
   75% {
-    background-image: url(../img/banner/b3.jpg); }
+    background-image: url(../img/banner/b3_grey.jpg); }
 
   100% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 }
 @-moz-keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 
   25% {
-    background-image: url(../img/banner/b2.jpg); }
+    background-image: url(../img/banner/b2_grey.jpg); }
 
   50% {
-    background-image: url(../img/banner/cover_photo.jpg); }
+    background-image: url(../img/banner/cover_photo_grey.jpg); }
 
   75% {
-    background-image: url(../img/banner/b3.jpg); }
+    background-image: url(../img/banner/b3_grey.jpg); }
 
   100% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 
 }
 @keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 
   25% {
-    background-image: url(../img/banner/b2.jpg); }
+    background-image: url(../img/banner/b2_grey.jpg); }
 
   50% {
-    background-image: url(../img/banner/cover_photo.jpg); }
+    background-image: url(../img/banner/cover_photo_grey.jpg); }
 
   75% {
-    background-image: url(../img/banner/b3.jpg); }
+    background-image: url(../img/banner/b3_grey.jpg); }
 
   100% {
-    background-image: url(../img/banner/columbia.jpg); }
+    background-image: url(../img/banner/columbia_grey.jpg); }
 }
 /*
 ==========================================
