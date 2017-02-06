@@ -1159,10 +1159,10 @@ center
 ==============================================*/
 
 .feature-heading-top {
-	background: #888888 url("../img/bg/3.jpg")fixed 20% 20%;
+	background: #888888 url("../img/bg/6.jpg")fixed 20% 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 70px 0px 120px;
+	padding: 60px 0px 120px;
 	position: relative;
 	z-index: 1;
 }
@@ -1194,11 +1194,11 @@ center
 }
 
 #section-features {
-	padding-bottom: 50px;
+	padding-bottom: 0px 0px;
 }
 
 .feature-content {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	padding: 20px 30px;
 	border-bottom: 2px solid#eee;
 	position: relative;
@@ -1294,7 +1294,7 @@ center
 }
 
 #section-gallery {
-	background: #F4F5F5;
+	background: #ffffff;
 }
 
 .owl-dots span {
