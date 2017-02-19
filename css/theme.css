@@ -538,10 +538,6 @@ Banner Content
 	top: 0;
 }
 
-.banner-main h3 {
-	color: #fff;
-	font-weight: 700;
-}
 
 .banner-main h4 {
 	color: #eaeaea;
@@ -604,21 +600,30 @@ Banner Content
     z-index: 0; 
 }
 
-.sect-banner h3 {
+.sect-banner h1 {
 	color: #fff;
 	font-weight: 600;
 	font-size: 400%;
 	opacity: 0.9;
 	line-height: 58px;
+	margin-top: 200px;
+}
+.sect-banner h3 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 200%;
+	opacity: 0.9;
+	line-height: 28px;
+	margin-top: -200px;
 }
 
 .sect-banner h4 {
 	color: #fff;
-	font-weight: 350;
+	font-weight: 400;
 	font-size: 150%;
 	opacity: 0.8;
 	width: 70%;
-	margin: 35px auto;
+	margin: 20px auto;
 	line-height: 28px;
 }
 
