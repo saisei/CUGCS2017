@@ -450,7 +450,7 @@ a.navbar-brand i {
 }
 
 .navbar-right a.btn {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 
@@ -476,7 +476,7 @@ a.navbar-brand i {
 }
 
 .section-padding {
-	padding: 90px 0px;
+	padding: 100px 0px;
 }
 
 
@@ -1033,19 +1033,19 @@ center
 	SECTION SPEAKERS
 =================================================================================*/
 
-#section-speaker {
+#section-past-speaker {
 	background: #EEEEEE;
 	margin-bottom: 18px;
 }
 
-.speaker-box,
+.speaker-past-box,
 .speaker-info {
 	-webkit-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
 }
 
-.speaker-box {
+.speaker-past-box {
 	border: 1px solid#ddd;
 }
 
@@ -1055,8 +1055,8 @@ center
 	border-top: 7px solid#ddd;
 }
 
-.speaker-box:hover .speaker-info,
-.speaker-box:hover {
+.speaker-past-box:hover .speaker-info,
+.speaker-past-box:hover {
 	border-color: #ED1C24;
 }
 
@@ -1392,7 +1392,7 @@ center
 }
 
 /*=================
-section for team page
+section background for team page
 =======================*/
 #section-executive {
 	background: #e9e9e9;
@@ -1402,9 +1402,7 @@ section for team page
 	background: #e9e9e9;
 }
 
-#section-team {
-	background: #e9e9e9;
-}
+
 
 #section-sponsorship {
 	background: #e9e9e9;
@@ -1594,3 +1592,5 @@ map
 .footer-social li a:hover i {
 	color: #fff;
 }
+
+

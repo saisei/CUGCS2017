@@ -1,0 +1,778 @@
+/* 4.8 - Our Team meetup */
+#speaker {
+    overflow: hidden;
+}
+.tz_meetup_our_team_thumbnail {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.tz_meetup_our_team_thumbnail:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.4s linear 0.1s;
+    -moz-transition: all 0.4s linear 0.1s;
+    -webkit-transition: all 0.4s linear 0.1s;
+    -ms-transition: all 0.4s linear 0.1s;
+    -o-transition: all 0.4s linear 0.1s;
+}
+.tz_meetup_our_team_thumbnail:hover:after {
+    background: rgba(0, 0, 0, 0.7);
+}
+.tz_meetup_our_team_thumbnail img {
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    width: 100%;
+    max-width: none;
+    position: relative;
+}
+.tz_meetup_our_team_thumbnail:hover img {
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.tz_meetup_our_team_thumbnail .tz_member_meetup {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.tz_meetup_our_team_thumbnail .tz_member_meetup h4.tz_meetup_employment {
+    font-weight: 600;
+    font-size: 11px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    text-transform: uppercase;
+}
+.tz_meetup_our_team_thumbnail .tz_member_meetup h3.tz_meetup_name {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    text-transform: uppercase;
+}
+.tz_meetup_our_team_thumbnail:hover h4.tz_meetup_employment {
+    transition: all 0.4s ease 0.2s;
+    -moz-transition: all 0.4s ease 0.2s;
+    -webkit-transition: all 0.4s ease 0.2s;
+    -ms-transition: all 0.4s ease 0.2s;
+    -o-transition: all 0.4s ease 0.2s;
+    opacity: 1;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.tz_meetup_our_team_thumbnail:hover h3.tz_meetup_name {
+    transition: all 0.4s ease 0.35s;
+    -moz-transition: all 0.4s ease 0.35s;
+    -webkit-transition: all 0.4s ease 0.35s;
+    -ms-transition: all 0.4s ease 0.35s;
+    -o-transition: all 0.4s ease 0.35s;
+    opacity: 1;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+span.tz_text_hover_speaker {
+    text-transform: uppercase;
+    color: #e45914;
+    font-size: 12px;
+    display: inline-block;
+    background: #ffffff;
+    line-height: 2.5em;
+    padding: 0 25px;
+    font-weight: 400;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
+.tz_member_meetup .tz_text_hover_speaker {
+    background: #e45914;
+    color: #ffffff;
+}
+.tz_our_speakers:hover .tz_text_hover_speaker {
+    opacity: 1;
+    transition: all 0.4s linear 0.1s;
+    -moz-transition: all 0.4s linear 0.1s;
+    -webkit-transition: all 0.4s linear 0.1s;
+    -ms-transition: all 0.4s linear 0.1s;
+    -o-transition: all 0.4s linear 0.1s;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.tz_meetup_our_team_thumbnail:hover .tz_text_hover_speaker {
+    opacity: 1;
+    transition: all 0.4s ease 0.5s;
+    -moz-transition: all 0.4s ease 0.5s;
+    -webkit-transition: all 0.4s ease 0.5s;
+    -ms-transition: all 0.4s ease 0.5s;
+    -o-transition: all 0.4s ease 0.5s;
+    transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -webkit-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+}
+
+#our_speakers {
+    padding: 110px 0 70px;
+}
+.tz_our_speakers_img {
+    position: relative;
+    overflow: hidden;
+}
+.tz_our_speakers_img:before {
+    background: transparent;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+}
+.tz_our_speakers_img img {
+    width: 100%;
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+}
+.tz_our_speakers_img .tz_our_speakers_social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.tz_meetup_social_speakers {
+    transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
+.tz_meetup_social_speakers a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.tz_meetup_social_speakers a i.fa {
+    padding: 0 10px;
+    font-size: 15px;
+}
+span.tz_text_hover_speaker {
+    text-transform: uppercase;
+    color: #e45914;
+    font-size: 12px;
+    display: inline-block;
+    background: #ffffff;
+    line-height: 2.5em;
+    padding: 0 25px;
+    font-weight: 400;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+}
+.tz_our_speakers_container {
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 5px solid #e7e7e7;
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    padding: 14px 0 15px;
+}
+.tz_our_speakers_container h4 {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.tz_our_speakers_container span {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+.tz_our_speakers {
+    margin-bottom: 43px;
+    cursor: pointer;
+}
+.tz_our_speakers:hover .tz_our_speakers_img:before {
+    background: rgba(228, 89, 20, 0.8);
+    z-index: 1;
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+}
+.tz_our_speakers:hover .tz_our_speakers_container {
+    border-bottom-color: #e45914;
+}
+.tz_our_speakers:hover img {
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.tz_our_speakers:hover .tz_meetup_social_speakers {
+    opacity: 1;
+    transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -webkit-transition: all 0.4s linear 0s;
+    -ms-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.tz_our_speakers:hover .tz_text_hover_speaker {
+    opacity: 1;
+    transition: all 0.4s linear 0.1s;
+    -moz-transition: all 0.4s linear 0.1s;
+    -webkit-transition: all 0.4s linear 0.1s;
+    -ms-transition: all 0.4s linear 0.1s;
+    -o-transition: all 0.4s linear 0.1s;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+.tz-md-modal-speakers span.md-close {
+    display: block;
+    text-align: right;
+    padding: 10px 0;
+    color: #0c1327;
+    margin-bottom: 90px;
+}
+.tz-md-modal-speakers span.md-close.tz-md-close {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tz-md-close em {
+    font-size: 14px;
+    color: #e45914;
+    text-transform: uppercase;
+    margin: 15px 0;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    display: block;
+}
+.tz-md-modal-speakers span.md-close i.fa {
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+}
+.tz-md-modal-speakers span.md-close i.fa:hover {
+    color: #e45914;
+}
+.tz_modal_speakers_content_title {
+    color: #e45914;
+}
+.tz_modal_speakers_content {
+    padding: 0 15px;
+}
+.tz_modal_speakers_content:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.tz_modal_speakers_content p {
+    line-height: 1.8em;
+    margin-bottom: 20px;
+}
+h4.tz_modal_name {
+    color: #e45914;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+span.tz_modal_employment {
+    display: block;
+    color: #898b90;
+    margin-bottom: 4px;
+}
+.tz_modal_speakers_content .ezcol span {
+    font-size: 18px;
+}
+.tz_modal_speakers_content .ezcol span i {
+    font-size: 14px;
+}
+.tz_modal_speakers_content .tz-plazart-list li span.tz_icon_maniva_list {
+    margin-top: 3px;
+}
+.tz_modal_speakers_content .tz-plazart-list {
+    margin: 0;
+}
+.tz_modal_speakers_content .tz-plazart-list li p {
+    line-height: 1.5em;
+    font-size: 14px;
+}
+.tz_modal_title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.tz_modal_image {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid rgba(0,0,0,0.1);
+    top: -125px;
+    left: 50%;
+    margin-left: -125px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tz_modal_image_content {
+    border: 5px solid rgba(255,255,255,0.5);
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.tz-md-modal-speakers img {
+    width: 100%;
+}
+.tz_modal_speakers_social {
+    text-align: center;
+}
+.tz_modal_speakers_social a {
+    color: #898b90;
+    margin: 0 5px;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+}
+.tz_modal_speakers_social a:hover {
+    color: #e45914;
+    text-decoration: none;
+}
+.tz-plazart-list li span.tz_icon_maniva_list_custom i {
+    color: #53c5a9;
+}
+
+/* 4.9 - Tab Event */
+#agenda {
+    padding: 84px 0 135px;
+}
+.tz_tab_custom {
+    margin-top: 48px;
+}
+.tz_tabs_meetup {
+    position: relative;
+}
+.tz_tabs_meetup:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    height: 1px;
+    width: 16%;
+    background: -moz-radial-gradient(center left, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -o-radial-gradient(center left, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -ms-radial-gradient(center left, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -webkit-radial-gradient(center left, circle farthest-side, #ffffff 60%, #242732 100%);
+    z-index: 1;
+}
+.tz_tabs_meetup:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 50%;
+    height: 1px;
+    width: 16%;
+    background: -moz-radial-gradient(center right, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -o-radial-gradient(center right, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -ms-radial-gradient(center right, circle farthest-side, #ffffff 60%, #242732 100%);
+    background: -webkit-radial-gradient(center right, circle farthest-side, #ffffff 60%, #242732 100%);
+    z-index: 1;
+}
+.tz_tab_custom .nav-tabs {
+    text-align: center;
+    border-bottom: none;
+    position: relative;
+}
+.tz_tab_custom .nav-tabs:after {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    content: '';
+    height: 1px;
+    background: #242732;
+}
+.tz_tab_custom .nav-tabs > li {
+    margin: 0 5px 1px 0;
+    float: none;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+}
+.tz_tab_custom .nav-tabs > li > a {
+    font-size: 11px;
+    font-weight: 500;
+    color: #242732;
+    text-transform: uppercase;
+    text-shadow: none;
+    position: relative;
+    padding: 6px 30px;
+    margin-right: 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 1px solid #242732;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+}
+.tz_tab_custom .nav-tabs > li.active > a,
+.tz_tab_custom .nav-tabs > li.active > a:focus,
+.tz_tab_custom .nav-tabs > li.active > a:hover,
+.tz_tab_custom .nav-tabs > li > a:hover {
+    background: #e45914;
+    border-color: #e45914;
+    color: #ffffff;
+}
+.tz_tab_content {
+    margin-top: 70px;
+}
+.tz_box_event_meetup h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #e45914;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+.tz_box_event_meetup h3.tz_event_meetup_subtitle {
+    line-height: 1.1em;
+    color: #666666;
+    font-size: 14px;
+}
+.tz_box_event_meetup h3.tz_event_meetup_subtitle em {
+    font-weight: 400;
+    font-style: inherit;
+}
+.tz_event_meettup_box_content {
+    position: relative;
+}
+.tz_event_meettup_box_content:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 3px;
+    background: -moz-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.65) 35%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(35%, rgba(255, 255, 255, 0.65)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.65) 35%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.65) 35%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.65) 35%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0.65) 35%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+    z-index: 1;
+}
+.tz_event_meettup_box_content:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 130px;
+    width: 3px;
+    background: -moz-linear-gradient(bottom, #ffffff 30%, rgba(238, 238, 238, 0) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ffffff), color-stop(100%, rgba(238, 238, 238, 0)));
+    background: -webkit-linear-gradient(bottom, #ffffff 30%, rgba(238, 238, 238, 0) 100%);
+    background: -o-linear-gradient(bottom, #ffffff 30%, rgba(238, 238, 238, 0) 100%);
+    background: -ms-linear-gradient(bottom, #ffffff 30%, rgba(238, 238, 238, 0) 100%);
+    background: linear-gradient(to top, #ffffff 30%, rgba(238, 238, 238, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00eeeeee', GradientType=0);
+    z-index: 1;
+}
+.tz_event_meetup_content {
+    border-left: 3px solid #eeeeee;
+    padding-left: 125px;
+    margin-top: 40px;
+    position: relative;
+}
+.tz_event_meetup_content .tz_meetup_box_detail {
+    position: relative;
+    margin-bottom: 20px;
+    display: block;
+}
+.tz_event_meetup_content .tz_meetup_box_detail .tz_meetup_box_detail_custom {
+    display: inline-block;
+    padding: 24px 40px 25px 22px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail:before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #e45914;
+    content: '';
+    top: 45px;
+    left: -136px;
+    border: 5px solid #ffffff;
+    z-index: 2;
+}
+.tz_event_meetup_content .tz_meetup_box_detail:after {
+    border-bottom: 20px solid #f8f8f8;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 15px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail span.tz_meetup_start_time {
+    color: #242732;
+    left: -110px;
+    position: absolute;
+    top: 45px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail p {
+    font-size: 11px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail p i.fa {
+    color: #e45914;
+}
+.tz_event_meetup_content .tz_meetup_box_detail h4 {
+    color: #595c6a;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.tz_event_meetup_content .tz_meetup_box_detail .tz_event_meetup_item_content h5 {
+    font-weight: 200;
+    color: #0b0c0f;
+}
+.tz_event_meetup_content .tz_meetup_box_detail .tz_event_meetup_item_content p {
+    margin: 0;
+    font-size: 13px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail .tz_event_meetup_item_content p:first-child {
+    margin-top: 10px;
+}
+.tz_event_meetup_content .tz_meetup_box_detail .tz_event_meetup_item_content p em {
+    color: #888a8e;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#tab {
+    padding: 84px 0 135px;
+}
+.tz_custom_btn_padding {
+    padding: 0 0 0 125px;
+}
+.tz_custom_height_empty {
+    height: 60px;
+}
+
+/* 4.10 - Twitter */
+#tz_twitter {
+    position: relative;
+    background-image: url("images/bk-paralax-4.jpg");
+}
+#tz_twitter:after {
+    position: absolute;
+    content: '';
+    background-color: rgba(9, 9, 31, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.tzTwitter-slider-box {
+    padding: 148px 0 142px;
+}
+.tzTwitter-slider-box {
+    position: relative;
+    z-index: 2;
+}
+.tzTwitter-item {
+    text-align: center;
+}
+.tzTwitter-item .tzTwitter-icon {
+    background-image: url("images/border-tw.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 28px 0 32px;
+}
+.tzTwitter-item .tzTwitter-icon i.fa {
+    font-size: 40px;
+    color: #ffffff;
+}
+.tzTwitter-item span.tweet_text {
+    font-weight: 300;
+    font-size: 30px;
+    color: #eeeeee;
+    display: block;
+    line-height: 1.6em;
+    margin: 35px 0 40px 0;
+}
+.tzTwitter-item span.tweet_text a {
+    color: #e45914;
+}
+.tzTwitter-item span.tz_tweet_meetup_name {
+    margin-bottom: 5px;
+    color: #aaaaaa;
+    display: block;
+}
+.tzTwitter-item span.tweet_time {
+    display: block;
+    font-size: 15px;
+    color: #eeeeee;
+}
+.tzTwitter-slider-box .tzTwitter-slider.owl-theme .owl-dots {
+    margin-top: 58px;
+}
+.tzTwitter-slider.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e45914;
+    background: transparent;
+    opacity: 1;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    margin: 0 5px;
+}
+.tzTwitter-slider.owl-theme .owl-dots .owl-dot span:hover {
+    background: #e45914;
+}
+.tzTwitter-slider.owl-theme .owl-dots .owl-dot.active span {
+    background: #e45914;
+}
