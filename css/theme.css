@@ -1158,7 +1158,9 @@ center
 	text-transform: uppercase;
 }
 
-
+.section-heading h4{
+	color:#0000CD;
+}
 /*=============================================
 	WHY CHOOS US
 ==============================================*/
