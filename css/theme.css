@@ -1039,7 +1039,7 @@ center
 }
 
 .speaker-past-box,
-.speaker-info {
+.speaker-past-info {
 	-webkit-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
 	transition: all .3s ease 0s;
@@ -1049,24 +1049,24 @@ center
 	border: 1px solid#ddd;
 }
 
-.speaker-info {
+.speaker-past-info {
 	background: #fff;
 	padding: 20px 30px 15px;
 	border-top: 7px solid#ddd;
 }
 
-.speaker-past-box:hover .speaker-info,
+.speaker-past-box:hover .speaker-past-info,
 .speaker-past-box:hover {
 	border-color: #ED1C24;
 }
 
-.speaker-info h4 {
+.speaker-past-info h4 {
 	margin-bottom: 0px;
 	color: #ED1C24;
 	text-transform: capitalize;
 }
 
-.speaker-social a i {
+.speaker-past-social a i {
 	color: #777;
 	font-size: 20px;
 	text-align: center;
@@ -1077,7 +1077,7 @@ center
 	margin-top: 15px;
 }
 
-.speaker-social a:hover i {
+.speaker-past-social a:hover i {
 	color: #ED1C24;
 }
 

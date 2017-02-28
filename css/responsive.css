@@ -59,10 +59,10 @@
 	
 /*	==== speaker ============*/
 	
-	.speaker-box ,.pricing-box,.blog-box,.venue-info{
+	.speaker-past-box ,.pricing-box,.blog-box,.venue-info{
 		margin-bottom: 30px;
 	}
-	.speaker-box img{
+	.speaker-past-box img{
 		width: 100%;
 	}
 	
@@ -163,10 +163,10 @@
 	
 /*	==== speaker ============*/
 	
-	.speaker-box ,.pricing-box,.blog-box,.venue-info{
+	.speaker-past-box ,.pricing-box,.blog-box,.venue-info{
 		margin-bottom: 30px;
 	}
-	.speaker-box img{
+	.speaker-past-box img{
 		width: 100%;
 	}
 	
