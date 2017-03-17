@@ -1142,6 +1142,7 @@ center
 }
 
 .price span {
+	font-family: sans-serif;
 	font-size: 50px;
 	font-weight: 700;
 	color: #232323;
