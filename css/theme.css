@@ -1127,6 +1127,7 @@ center
 }
 
 .price-list li {
+	font-family: sans-serif;
 	font-size: 14px;
 	padding: 2px 0px;
 	text-transform: capitalize;
