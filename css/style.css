@@ -382,3 +382,13 @@ span.tz_modal_employment {
     vertical-align: middle;
     text-align: center;
 }
+
+.split {
+  width: 45%;
+  float: left;
+  padding: 2%;
+}
+
+.split > div.row {
+  width: 200%;
+}
