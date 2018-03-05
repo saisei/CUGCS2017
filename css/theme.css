@@ -578,10 +578,10 @@ Banner Content
   text-align: center;
   height: 100vh;
 
-  /*----------------------------------------------   
+  /*----------------------------------------------
   -DEMO1: Unordered list
   -----------------------------------------------  */
-  /*----------------------------------------------   
+  /*----------------------------------------------
   -DEMO2: Banner bg
   -----------------------------------------------  */ }
 .sect-banner:after {
@@ -591,7 +591,7 @@ Banner Content
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: 0; 
+    z-index: 0;
 }
 
 .sect-banner h1 {
@@ -623,30 +623,30 @@ Banner Content
 
 .sect-banner .v-center {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
-  
+
 .sect-banner .v-center {
     display: table-cell;
     vertical-align: middle;
     position: relative;
     z-index: 4;
-    padding: 0 5%; 
+    padding: 0 5%;
 }
-    
+
 .sect-banner .v-center h1 {
       -webkit-animation: fade-in ease-in-out 2s 0.5s both;
       -moz-animation: fade-in ease-in-out 2s 0.5s both;
-      animation: fade-in ease-in-out 2s 0.5s both; 
+      animation: fade-in ease-in-out 2s 0.5s both;
 }
-    
+
 .sect-banner .v-center p {
       font-size: 120%;
       -webkit-animation: fade-in ease-in-out 2s 1s both;
       -moz-animation: fade-in ease-in-out 2s 1s both;
-      animation: fade-in ease-in-out 2s 1s both; 
+      animation: fade-in ease-in-out 2s 1s both;
 }
- 
+
 .sect-banner ul.kf-slider li {
     height: 100% !important;
     width: 100%;
@@ -660,56 +660,70 @@ Banner Content
     -webkit-animation: fade-out 16s infinite both;
     -moz-animation: fade-out 16s infinite both;
     animation: fade-out 16s infinite both;
-    background-image: url(../img/banner/columbia_grey.jpg);
+    background-image: url(../img/banner/uris.jpg);
 
 }
 
 @media (min-width: 58em) {
-      
+
     .sect-banner ul.kf-slider li {
-        background-image: url(../img/banner/columbia_grey.jpg); 
-        background-size:cover; 
-    } 
+        background-image: url(../img/banner/uris.jpg);
+        background-size:cover;
+    }
 }
 
 .sect-banner ul.kf-slider li:nth-child(2) {
-    background-image: url(../img/banner/b2_grey.jpg);
+    background-image: url(../img/banner/bg5.jpg);
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
-    animation-delay: 4s; 
+    animation-delay: 4s;
 }
 
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(2) {
-        background-image: url(../img/banner/b2_grey.jpg);
-        background-size:cover;  
-    } 
+        background-image: url(../img/banner/bg5.jpg);
+        background-size:cover;
+    }
 }
-  
+
 .sect-banner ul.kf-slider li:nth-child(3) {
-    background-image: url(../img/banner/cover_photo_grey.jpg);
+    background-image: url(../img/banner/columbia_university_campus.jpg);
     -webkit-animation-delay: 8s;
     -moz-animation-delay: 8s;
     animation-delay: 8s;
 }
-   
+
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(3) {
-        background-image: url(../img/banner/cover_photo_grey.jpg); 
+        background-image: url(../img/banner/columbia_university_campus.jpg);
     }
 
 }
 
 .sect-banner ul.kf-slider li:nth-child(4) {
-    background-image: url(../img/banner/b3_grey.jpg);
+    background-image: url(../img/banner/bg6.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     animation-delay: 12s;
 }
-   
+
 @media (min-width: 58em) {
     .sect-banner ul.kf-slider li:nth-child(4) {
-        background-image: url(../img/banner/b3_grey.jpg); 
+        background-image: url(../img/banner/bg6.jpg);
+    }
+
+}
+
+.sect-banner ul.kf-slider li:nth-child(5) {
+    background-image: url(../img/banner/bg7.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+@media (min-width: 58em) {
+    .sect-banner ul.kf-slider li:nth-child(5) {
+        background-image: url(../img/banner/bg7.jpg);
     }
 
 }
@@ -726,7 +740,7 @@ Banner Content
     background-image: url(../img/banner/columbia_grey.jpg);
     -webkit-animation: slider-sm ease-in-out 40s both infinite;
     -moz-animation: slider-sm ease-in-out 40s both infinite;
-    animation: slider-sm ease-in-out 40s both infinite; 
+    animation: slider-sm ease-in-out 40s both infinite;
 }
 
 @media (min-width: 58em) {
@@ -734,12 +748,12 @@ Banner Content
         background-image: url(../img/banner/columbia_grey.jpg);
         -webkit-animation: slider-lg ease-in-out 40s both infinite;
         -moz-animation: slider-lg ease-in-out 40s both infinite;
-        animation: slider-lg ease-in-out 40s both infinite; 
+        animation: slider-lg ease-in-out 40s both infinite;
     }
 }
 
 
-/*----------------------------------------------   
+/*----------------------------------------------
 --Fade ins
 -----------------------------------------------  */
 @-webkit-keyframes fade-in {
@@ -757,7 +771,7 @@ Banner Content
     opacity: 0; }
   100% {
     opacity: 1; } }
-/*----------------------------------------------   
+/*----------------------------------------------
 --Fade out for slider
 -----------------------------------------------  */
 @-webkit-keyframes fade-out {
@@ -775,12 +789,12 @@ Banner Content
     opacity: 1; }
   66% {
     opacity: 0; } }
-/*----------------------------------------------   
+/*----------------------------------------------
 --Keyframes Slider - Lg
 -----------------------------------------------  */
 @-webkit-keyframes slider-lg {
    0% {
-    background-image: url(../img/banner/columbia_grey.jpg); }
+    background-image: url(../img/banner/columbia_university_campus.jpg); }
 
   25% {
     background-image: url(../img/banner/b2_grey.jpg); }
@@ -796,7 +810,7 @@ Banner Content
 }
 @-moz-keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/columbia_grey.jpg); }
+    background-image: url(../img/banner/columbia_university_campus.jpg); }
 
   25% {
     background-image: url(../img/banner/b2_grey.jpg); }
@@ -813,7 +827,7 @@ Banner Content
 }
 @keyframes slider-lg {
   0% {
-    background-image: url(../img/banner/columbia_grey.jpg); }
+    background-image: url(../img/banner/columbia_university_campus.jpg); }
 
   25% {
     background-image: url(../img/banner/b2_grey.jpg); }
@@ -1591,5 +1605,3 @@ map
 .footer-social li a:hover i {
 	color: #fff;
 }
-
-
